@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #19191a;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #edebeb;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #edebeb;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #edebeb; 
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #edebeb;
+    margin-top: 10px;
+}
+
+button{
+    background-color: #5f34c9;
+    color: #edebeb;
+    padding: 20px;
+    border-radius: 6px;
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+button:hover{
+    background-color: #4c2aa1;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+#fixed{
+    background-color: #5f34c9;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#fixed:hover{
+    background-color: #4c2aa1;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+
+#centralizador{
+padding-top: 300px;
+}
+
+#centralizador3{
+    margin-top: 60px;
+}
+
+#alinhador{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+#alinhador2{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contratar{
+    margin-top: 40px;
+}
+
+#card3{
+    height: 750px;
+}
+
+#card4{
+    height: 700px;
+    margin-bottom: 40px;
+}
+
+.paddingImgs{
+    margin-left: 15px;
+}
+
+.espaco{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.centralizador2{
+    padding-top: 40px;
+}
+
+.masterContainer{
+    background-color: #0f0f0f;
+    margin: auto;
+    margin-top: 40px;
+    width: 740px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 15px -15px #26ad58;   
+}
+
+.mainContainer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.mainContainer2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px){
+    .masterContainer{
+        width: 90%;
+        height: 900px;
+    }
+
+    .mainContainer{
+        margin: 15px;
+    }
+
+    .imgsize{
+        width: 100px;
+    }
+
+    .espaco{
+        margin-top: 60px;
+        width: 70%;
+    }
+
+    #centralizador3{
+        margin-right: 6px;
+    }
+
+    #card1{
+        height: 1000px;
+    }
+
+    #card2{
+        height: 600px;
+    }
+
+    #card3{
+        height: 840px;
+    }
+
+    #card4{
+        height: 800px;
+        margin-bottom: 40px;
+    }
+}
+

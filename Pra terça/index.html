@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você conhece o Bruno?</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="carroselestilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="fixed">
+        <a href="#card1">
+            <h3>Voltar ao início</h3>
+        </a>
+    </div>
+    <div class="masterContainer" id="card1">
+        <div id="centralizador">
+            <div class="mainContainer">
+                <h1>Você conhece o Bruno?</h1>
+                <p>Caso queira saber mais sobre o candidato Bruno, é só navegar entre os botões.</p>
+            </div>
+            <div class="mainContainer2">
+                <a href="#card2">
+                    <button>Quero conhecer!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="masterContainer" id="card2">
+        <div class="centralizador2">
+            <div class="mainContainer">
+                <h2>Bio / Portifólio</h2>
+                <p>Desenvolvedor Front-End | Designer instrucional | Designer Gráfico | Artista Gráfico </p>
+            </div>
+
+            <div id="centralizador3">
+                <div id="alinhador">
+                    <a href="https://www.behance.net/gallery/57442069/Trauma-Pop-podcast" class="zoom">
+                        <img src="./Bruno_imgs/img1.png" class="img-responsive paddingImgs imgsize" alt="imagem 1">
+                    </a>
+                    <a href="https://www.behance.net/gallery/57469473/Kini-burguer-Projeto" class="zoom">
+                        <img src="./Bruno_imgs/img2.png" class="img-responsive paddingImgs imgsize" alt="imagem 2">
+                    </a>
+                    <a href="https://www.behance.net/gallery/57547203/CanecOn-Canecas-e-presentes-personalizaveis"
+                        class="zoom">
+                        <img src="./Bruno_imgs/img3.png" class="img-responsive paddingImgs imgsize" alt="imagem 3">
+                    </a>
+                </div>
+
+                <div id="alinhador">
+                    <a href="https://www.behance.net/gallery/57962257/Co-Overpower" class="zoom">
+                        <img src="./Bruno_imgs/img4.png" class="img-responsive paddingImgs imgsize" alt="imagem 4">
+                    </a>
+                    <a href="https://www.behance.net/gallery/107291107/Trauma-Pop-Podcast-2020" class="zoom">
+                        <img src="./Bruno_imgs/img5.png" class="img-responsive paddingImgs imgsize" alt="imagem 5">
+                    </a>
+                    <a href="https://www.behance.net/gallery/47318923/Hailburger-Food-Truck" class="zoom">
+                        <img src="./Bruno_imgs/img6.png" class="img-responsive paddingImgs imgsize" alt="imagem 6">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainContainer2">
+            <a href="#card3">
+                <button>Próxima etapa</button>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="masterContainer" id="card3">
+        <div class="centralizador2">
+            <div class="mainContainer">
+                <h2>Trilha profissional / Estudos</h2>
+                <p>Formando em produção Multimídia pelo Centro Universitário Senac em 2014</p>
+            </div>
+
+            <!-- Carrosel -->
+
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper">
+                            <a href="#carousel__slide2" class="carousel__prev">Go to last slide</a>
+                            <div class="espaco">
+                                <h3>Hard Skills</h3>
+                                <p>Algumas habilidades do Bruno que ele quis destacar ;)</p>
+                                <br>
+                                <p>
+                                    - Experiência em programação JavaScript, HTML 5 e CSS 3 // Estudo contínuo
+                                    <br>
+                                    - Experiência em criação de materiais educacionais com foco corporativo
+                                    <br>
+                                    - 2 Anos e meio de experiência em ministrar aulas e treinamento
+                                    <br>
+                                    - 4 Anos de experiência com na utilização do Photoshop
+                                    <br>
+                                    - 4 Anos de experiência na utilização do Illustrator
+                                    <br>
+                                    - 8 Anos de experiência no pacote office
+                                    <br>
+                                    - 2 Anos de experiência em fotografia
+                                </p>
+                            </div>
+                            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                        <div class="espaco">
+                            <h3>Analista de treinamento Jr.</h3>
+                            <p>Analista de treinamento e desenvolvimento para o produto Samsung.
+                                <br>
+                                <br>
+                                Responsabilidades:
+                                <br>
+                                <br>
+                                - Melhoria contínua do conteúdo ministrado
+                                <br>
+                                - Produção e desenvolvimento de treinamentos voltados à formação de novos funcionários
+                                para o preparo adequado dos produtos e processos
+                                <br>
+                                - Aplicação de treinamento e acompanhamento do desenvolvimento dos novos colaboradores
+                                <br>
+                                - Reciclagens para a formação continuada e desenvolvimento de novas habilidades e
+                                competências dos agentes
+                            </p>
+                        </div>
+                        <a href="#carousel__slide1" class="carousel__next">Go to next slide</a>
+                    </li>
+                </ol>
+                <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                    </ol>
+                </aside>
+            </section>
+        </div>
+
+        <!-- Carrosel -->
+
+        <div class="mainContainer2" id="card4">
+            <a href="#card4">
+                <button>Próxima etapa</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="masterContainer" id="card4">
+        <div class="centralizador2">
+            <div class="mainContainer">
+                <h2>Contato</h2>
+                <p>Onde encontrá-lo?</p>
+            </div>
+
+            <div id="centralizador3">
+                <div id="alinhador">
+                    <a href="https://www.linkedin.com/in/bruno-reis-530a377b/">
+                        <img class="paddingImgs" src="./Bruno_imgs/linkedin.png" alt="Linkedin" width="40px">
+                    </a>
+                    <a href="https://www.behance.net/br3iscontaada9">
+                        <img class="paddingImgs" src="./Bruno_imgs/behance.png" alt="Behance" width="40px">
+                    </a>
+                    <a href="https://github.com/br3is">
+                        <img class="paddingImgs" src="./Bruno_imgs/github.png" alt="Github" width="40px">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainContainer" id="contratar">
+            <img src="./Bruno_imgs/br3is.png" alt="Foto de Bruno" width="200px">
+        </div>
+
+        <div class="mainContainer2" id="contratar">
+            <h3>WhatsApp</h3>
+            <p>(11) 97804-5509</p>
+        </div>
+
+</body>
+
+</html>
